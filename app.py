@@ -1,5 +1,10 @@
-from flask import Flask, request
+# stdlib
 
+# 3rd-party
+from flask import Flask, request, jsonify
+
+# local
+from api.customer_orders import get_orders_from_file
 app = Flask(__name__)
 
 
@@ -16,7 +21,7 @@ def get_orders_status_from_csv():
 
 @app.route('/custom-order-status/')
 def exercise():
-    return 'Hello World!'
+    return jsonify(get_orders_from_file())
 
 
 
