@@ -12,7 +12,7 @@ If all are marked "SHIPPED" then the status is "SHIPPED".
 
 Data sets 
  - [csv file 1](./files/data_orders.csv)
- - [csv file 2](./files/data_orders.csv)
+ - [csv file 2](./files/data_orders_2.csv)
 
 Expected result using [csv file 1](./files/data_orders.csv):
 
