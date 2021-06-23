@@ -38,16 +38,23 @@ Expected result using [csv file 2](./files/data_orders.csv):
 - python 3 
 - [python 3rd-party](./requirements.txt)
 
+
 ## How to use
+
+Firs of all cover the requirmentes. For this
+install python3 and then create a virtual environment
+and activate it, finally install dependencies 
+([python 3rd-party](./requirements.txt))with:
+```pip install -r requirements```
 
 To run the application, use the ```flask``` command or ```python -m flask```
 OR **```flask run```**
 
 Once you have running the applicattion use this endpoint:
-for run the exersice:
+for execute the solution of the exercise:
 
 {host}/custom-order-status/
 
-Notes:s
+Notes:
 If you are running the project locally {host} usally is
 http://127.0.0.1:5000 or http://localhost:5000
