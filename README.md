@@ -41,11 +41,11 @@ Expected result using [csv file 2](./files/data_orders.csv):
 
 ## How to use
 
-Firs of all cover the requirmentes. For this
+First cover the requirements. For this
 install python3 and then create a virtual environment
 and activate it, finally install dependencies 
 ([python 3rd-party](./requirements.txt))with:
-```pip install -r requirements```
+```pip install -r requirements.txt```
 
 To run the application, use the ```flask``` command or ```python -m flask```
 OR **```flask run```**
