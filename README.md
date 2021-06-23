@@ -50,7 +50,7 @@ and activate it, finally install dependencies
 To run the application, use the ```flask``` command or ```python -m flask```
 OR **```flask run```**
 
-Once you have running the applicattion use this endpoint:
+Once you have running the applicattion use this endpoint
 for execute the solution of the exercise:
 
 {host}/custom-order-status/
