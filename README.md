@@ -32,3 +32,10 @@ Expected result using [csv file 2](./files/data_orders.csv):
 | ORD_1234     | PENDING   |
 | ORD_9834     | SHIPPED   |
 | ORD_7654     | CANCELLED |
+
+
+### Requirements: 
+- python 3 
+- [python 3rd-party](./requirements.txt)
+
+## How to use
