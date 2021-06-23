@@ -22,3 +22,13 @@ Expected result using [csv file 1](./files/data_orders.csv):
 | ORD_1234     | SHIPPED   |
 | ORD_9834     | SHIPPED   |
 | ORD_7654     | CANCELLED |
+
+
+Expected result using [csv file 2](./files/data_orders.csv):
+
+| order_number | status    |
+|--------------|-----------|
+| ORD_1567     | PENDING   |
+| ORD_1234     | PENDING   |
+| ORD_9834     | SHIPPED   |
+| ORD_7654     | CANCELLED |
