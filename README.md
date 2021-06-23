@@ -39,3 +39,15 @@ Expected result using [csv file 2](./files/data_orders.csv):
 - [python 3rd-party](./requirements.txt)
 
 ## How to use
+
+To run the application, use the ```flask``` command or ```python -m flask```
+OR **```flask run```**
+
+Once you have running the applicattion use this endpoint:
+for run the exersice:
+
+{host}/custom-order-status/
+
+Notes:s
+If you are running the project locally {host} usally is
+http://127.0.0.1:5000 or http://localhost:5000
